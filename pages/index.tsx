@@ -1,10 +1,7 @@
-import styled from 'styled-components'
+interface indexProps {}
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
+const Home: React.FC<indexProps> = ({}) => {
+  return <div>Homepage</div>;
+};
 
-export default function Home() {
-  return <Title>My page</Title>
-}
+export default Home;
