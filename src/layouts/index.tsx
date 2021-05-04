@@ -1,8 +1,8 @@
 import Header from "./header";
 
-interface indexProps {}
+interface LayoutProps {}
 
-const Layouts: React.FC<indexProps> = ({ children }) => {
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
       <Header />
@@ -11,4 +11,4 @@ const Layouts: React.FC<indexProps> = ({ children }) => {
   );
 };
 
-export default Layouts;
+export default Layout;

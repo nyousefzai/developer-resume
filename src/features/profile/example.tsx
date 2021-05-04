@@ -18,3 +18,7 @@ export const PageWrapper = styled.div`
     padding: 130px 15px 60px;
   }
 `;
+
+export const H1 = styled.h1`
+  color: ${themeGet("colors.primary.regular")};
+`;
