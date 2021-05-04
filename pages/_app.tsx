@@ -8,13 +8,9 @@ const AppLayout = dynamic(() => import("../layouts"));
 function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={defaultTheme}>
-      {/* <AppProvider> */}
-
       <AppLayout>
         <Component {...pageProps} />
       </AppLayout>
-
-      {/* </AppProvider> */}
     </ThemeProvider>
   );
 }

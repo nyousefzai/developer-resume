@@ -2,11 +2,13 @@
   "name": "navid-resume",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
+    "dev": "ts-node --project tsconfig.server.json server.ts",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
     "next": "latest",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -14,12 +16,14 @@
     "styled-system": "^5.1.5"
   },
   "devDependencies": {
+    "@types/express": "^4.17.11",
     "@types/node": "12.0.12",
     "@types/react": "16.8.23",
     "@types/react-dom": "16.8.4",
     "@types/styled-components": "5.0.1",
     "@types/styled-system": "^5.1.11",
     "babel-plugin-styled-components": "^1.10.0",
+    "ts-node": "^9.1.1",
     "typescript": "4.0"
   },
   "license": "MIT"
