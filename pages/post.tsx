@@ -1,5 +1,6 @@
 import React from "react";
 import { NextPageContext, NextPage } from "next";
+import { Button } from "antd";
 import axios from "axios";
 
 interface PostProps {
@@ -13,6 +14,8 @@ const Post: NextPage<PostProps> = ({ body, title }) => {
       <h1>{title}</h1>
       <br />
       <p>{body}</p>
+
+      <Button type="primary"> what that means</Button>
     </div>
   );
 };
