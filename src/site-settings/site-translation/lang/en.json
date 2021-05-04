@@ -1,0 +1,26 @@
+{
+  "nav.home": "Home",
+  "ar": "Arabic",
+  "zh": "Chinese",
+  "en": "English",
+  "de": "German",
+  "he": "Hebrew",
+  "es": "Spanish",
+  "intlTextBy": "by",
+  "intlRelatedItems": "Related Items",
+  "readFreeSampleButton": "Read Free Sample",
+  "bookSectionTitle": "About The Book",
+  "authorSectionTitle": "About The Author",
+  "defaultIntlId": "Please add a Placeholder from language file",
+
+  "noResultFound": "Sorry, No result found 404",
+
+  "deliveryText": "Delivery",
+  "cuisineText": "Cuisine",
+  "minOrderText": "Min Order",
+  "fromText": "From",
+  "caterSearchPickUp": "Pick Up",
+  "deliveryAddressFilters": "Delivery Address",
+  "deliveryDateFilters": "Date & Time",
+  "FiltersMore text": "Filter"
+}
